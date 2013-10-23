@@ -1,0 +1,26 @@
+fundamentos de ingenieria
+logica
+fundamentos programacion
+seminario de ingenieria
+elementos de computadores
+estructuras
+programacion 1
+microprocesadores
+programacion2
+teoria general de sistemas
+computacion grafica
+sistemas de informacion
+sistemas operativos
+bases de datos 1
+ingenieria de software 1
+teoria de control
+bases de datos 2
+electiva basica de ingenieria 1
+ingenieria de software 2
+optimizacion
+electiva basica de ingeniera 2
+inteligencia artificial
+optimizacion 2
+auditoria de sistemas
+gerencia tecnologica
+legislacion e ingenieria
