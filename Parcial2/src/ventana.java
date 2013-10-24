@@ -1292,7 +1292,28 @@ public class ventana extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jMenu3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenu3ActionPerformed
-              
+              tex.setText("");
+     tex.append("NOMBRE: "+carlos.nombre);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+carlos.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+carlos.materia.horario);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+carlos1.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+carlos1.materia.horario);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+carlos2.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+carlos2.materia.horario);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+carlos3.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+carlos3.materia.horario);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("MATERIA: "+carlos4.materia.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+carlos4.materia.horario);
     }//GEN-LAST:event_jMenu3ActionPerformed
 
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
