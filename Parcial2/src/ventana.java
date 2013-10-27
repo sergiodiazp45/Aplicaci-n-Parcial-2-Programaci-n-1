@@ -603,62 +603,44 @@ public class ventana extends javax.swing.JFrame {
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenu3 = new javax.swing.JMenu();
-        jMenuItem94 = new javax.swing.JMenuItem();
-        jMenuItem93 = new javax.swing.JMenuItem();
-        jMenuItem95 = new javax.swing.JMenuItem();
-        jMenuItem75 = new javax.swing.JMenuItem();
-        jMenuItem85 = new javax.swing.JMenuItem();
-        jMenuItem74 = new javax.swing.JMenuItem();
+        jMenuItem54 = new javax.swing.JMenuItem();
         jMenuItem73 = new javax.swing.JMenuItem();
+        jMenuItem53 = new javax.swing.JMenuItem();
         jMenuItem4 = new javax.swing.JMenuItem();
-        jMenuItem84 = new javax.swing.JMenuItem();
-        jMenuItem5 = new javax.swing.JMenuItem();
-        jMenuItem6 = new javax.swing.JMenuItem();
-        jMenuItem8 = new javax.swing.JMenuItem();
-        jMenuItem9 = new javax.swing.JMenuItem();
+        jMenuItem36 = new javax.swing.JMenuItem();
+        jMenuItem34 = new javax.swing.JMenuItem();
         jMenuItem19 = new javax.swing.JMenuItem();
         jMenuItem20 = new javax.swing.JMenuItem();
-        jMenuItem21 = new javax.swing.JMenuItem();
-        jMenuItem24 = new javax.swing.JMenuItem();
+        jMenuItem84 = new javax.swing.JMenuItem();
+        jMenuItem9 = new javax.swing.JMenuItem();
         jMenuItem33 = new javax.swing.JMenuItem();
-        jMenuItem34 = new javax.swing.JMenuItem();
-        jMenuItem35 = new javax.swing.JMenuItem();
-        jMenuItem36 = new javax.swing.JMenuItem();
-        jMenuItem53 = new javax.swing.JMenuItem();
-        jMenuItem54 = new javax.swing.JMenuItem();
-        jMenuItem56 = new javax.swing.JMenuItem();
-        jMenuItem57 = new javax.swing.JMenuItem();
-        jMenuItem58 = new javax.swing.JMenuItem();
         jMenu4 = new javax.swing.JMenu();
-        jMenuItem10 = new javax.swing.JMenuItem();
         jMenuItem68 = new javax.swing.JMenuItem();
-        jMenuItem80 = new javax.swing.JMenuItem();
-        jMenuItem82 = new javax.swing.JMenuItem();
-        jMenuItem81 = new javax.swing.JMenuItem();
-        jMenuItem79 = new javax.swing.JMenuItem();
-        jMenuItem78 = new javax.swing.JMenuItem();
         jMenuItem76 = new javax.swing.JMenuItem();
-        jMenuItem86 = new javax.swing.JMenuItem();
-        jMenuItem77 = new javax.swing.JMenuItem();
-        jMenuItem69 = new javax.swing.JMenuItem();
-        jMenuItem62 = new javax.swing.JMenuItem();
-        jMenuItem67 = new javax.swing.JMenuItem();
-        jMenuItem64 = new javax.swing.JMenuItem();
         jMenuItem60 = new javax.swing.JMenuItem();
-        jMenuItem66 = new javax.swing.JMenuItem();
-        jMenuItem11 = new javax.swing.JMenuItem();
-        jMenuItem13 = new javax.swing.JMenuItem();
-        jMenuItem50 = new javax.swing.JMenuItem();
-        jMenuItem15 = new javax.swing.JMenuItem();
-        jMenuItem16 = new javax.swing.JMenuItem();
-        jMenuItem26 = new javax.swing.JMenuItem();
-        jMenuItem27 = new javax.swing.JMenuItem();
-        jMenuItem30 = new javax.swing.JMenuItem();
+        jMenuItem67 = new javax.swing.JMenuItem();
+        jMenuItem81 = new javax.swing.JMenuItem();
+        jMenu5 = new javax.swing.JMenu();
+        jMenu12 = new javax.swing.JMenu();
+        jMenuItem86 = new javax.swing.JMenuItem();
+        jMenuItem78 = new javax.swing.JMenuItem();
+        jMenuItem49 = new javax.swing.JMenuItem();
+        jMenuItem79 = new javax.swing.JMenuItem();
         jMenuItem39 = new javax.swing.JMenuItem();
+        jMenuItem48 = new javax.swing.JMenuItem();
+        jMenuItem26 = new javax.swing.JMenuItem();
+        jMenuItem64 = new javax.swing.JMenuItem();
+        jMenuItem62 = new javax.swing.JMenuItem();
+        jMenuItem50 = new javax.swing.JMenuItem();
+        jMenuItem66 = new javax.swing.JMenuItem();
+        jMenuItem82 = new javax.swing.JMenuItem();
         jMenuItem40 = new javax.swing.JMenuItem();
         jMenuItem42 = new javax.swing.JMenuItem();
-        jMenuItem48 = new javax.swing.JMenuItem();
-        jMenuItem49 = new javax.swing.JMenuItem();
+        jMenuItem27 = new javax.swing.JMenuItem();
+        jMenuItem16 = new javax.swing.JMenuItem();
+        jMenuItem10 = new javax.swing.JMenuItem();
+        jMenuItem69 = new javax.swing.JMenuItem();
+        jMenuItem80 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
         jMenuItem110 = new javax.swing.JMenuItem();
 
@@ -681,6 +663,8 @@ public class ventana extends javax.swing.JFrame {
         jMenuBar4.add(jMenu11);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Docentes de Ingenieria");
+        setBounds(new java.awt.Rectangle(4, 4, 4, 4));
 
         jScrollPane1.setViewportView(tex);
 
@@ -694,6 +678,7 @@ public class ventana extends javax.swing.JFrame {
 
         jMenu1.setText("MENU");
 
+        jMenu3.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icono_comunidad_docentes.gif")); // NOI18N
         jMenu3.setText("PROFESOR");
         jMenu3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -701,183 +686,8 @@ public class ventana extends javax.swing.JFrame {
             }
         });
 
-        jMenuItem94.setText("Prof. Marcia P.");
-        jMenuItem94.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem94ActionPerformed(evt);
-            }
-        });
-        jMenu3.add(jMenuItem94);
-
-        jMenuItem93.setText("Prof. Gustavo C.");
-        jMenuItem93.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem93ActionPerformed(evt);
-            }
-        });
-        jMenu3.add(jMenuItem93);
-
-        jMenuItem95.setText("Prof. Alfonso B.");
-        jMenuItem95.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem95ActionPerformed(evt);
-            }
-        });
-        jMenu3.add(jMenuItem95);
-
-        jMenuItem75.setText("Prof. Investigacion l");
-        jMenuItem75.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem75ActionPerformed(evt);
-            }
-        });
-        jMenu3.add(jMenuItem75);
-
-        jMenuItem85.setText("Prof. Investigacion ll");
-        jMenuItem85.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem85ActionPerformed(evt);
-            }
-        });
-        jMenu3.add(jMenuItem85);
-
-        jMenuItem74.setText("Prof. Ascanio H.");
-        jMenuItem74.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem74ActionPerformed(evt);
-            }
-        });
-        jMenu3.add(jMenuItem74);
-
-        jMenuItem73.setText("Prof. Esperanza M.");
-        jMenuItem73.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem73ActionPerformed(evt);
-            }
-        });
-        jMenu3.add(jMenuItem73);
-
-        jMenuItem4.setText("Prof. Eva V.");
-        jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem4ActionPerformed(evt);
-            }
-        });
-        jMenu3.add(jMenuItem4);
-
-        jMenuItem84.setText("Prof. Oscar B.");
-        jMenuItem84.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem84ActionPerformed(evt);
-            }
-        });
-        jMenu3.add(jMenuItem84);
-
-        jMenuItem5.setText("Prof. Algebra L.");
-        jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem5ActionPerformed(evt);
-            }
-        });
-        jMenu3.add(jMenuItem5);
-
-        jMenuItem6.setText("Prof. Catedra U.");
-        jMenuItem6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem6ActionPerformed(evt);
-            }
-        });
-        jMenu3.add(jMenuItem6);
-
-        jMenuItem8.setText("Prof. Joel V.");
-        jMenuItem8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem8ActionPerformed(evt);
-            }
-        });
-        jMenu3.add(jMenuItem8);
-
-        jMenuItem9.setText("Prof. Pedro M.");
-        jMenuItem9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem9ActionPerformed(evt);
-            }
-        });
-        jMenu3.add(jMenuItem9);
-
-        jMenuItem19.setText("Prof. Jorge R.");
-        jMenuItem19.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem19ActionPerformed(evt);
-            }
-        });
-        jMenu3.add(jMenuItem19);
-
-        jMenuItem20.setText("Prof. Jose O.");
-        jMenuItem20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem20ActionPerformed(evt);
-            }
-        });
-        jMenu3.add(jMenuItem20);
-
-        jMenuItem21.setText("Prof. Juaquin R.");
-        jMenuItem21.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem21ActionPerformed(evt);
-            }
-        });
-        jMenu3.add(jMenuItem21);
-
-        jMenuItem24.setText("Prof. Jorge Q.");
-        jMenuItem24.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem24ActionPerformed(evt);
-            }
-        });
-        jMenu3.add(jMenuItem24);
-
-        jMenuItem33.setText("Prof. Wilson G.");
-        jMenuItem33.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem33ActionPerformed(evt);
-            }
-        });
-        jMenu3.add(jMenuItem33);
-
-        jMenuItem34.setText("Prof. Joaquin A.");
-        jMenuItem34.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem34ActionPerformed(evt);
-            }
-        });
-        jMenu3.add(jMenuItem34);
-
-        jMenuItem35.setText("Prof. Bernabe B.");
-        jMenuItem35.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem35ActionPerformed(evt);
-            }
-        });
-        jMenu3.add(jMenuItem35);
-
-        jMenuItem36.setText("Prof. Fernando S. ");
-        jMenuItem36.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem36ActionPerformed(evt);
-            }
-        });
-        jMenu3.add(jMenuItem36);
-
-        jMenuItem53.setText("Prof. Esau P.");
-        jMenuItem53.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem53ActionPerformed(evt);
-            }
-        });
-        jMenu3.add(jMenuItem53);
-
-        jMenuItem54.setText("Prof. Duvan O.");
+        jMenuItem54.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\asterisco-naranja-icono-8036-32.png")); // NOI18N
+        jMenuItem54.setText("Duvan O.");
         jMenuItem54.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem54ActionPerformed(evt);
@@ -885,42 +695,102 @@ public class ventana extends javax.swing.JFrame {
         });
         jMenu3.add(jMenuItem54);
 
-        jMenuItem56.setText("Prof. Nelly G.");
-        jMenuItem56.addActionListener(new java.awt.event.ActionListener() {
+        jMenuItem73.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\asterisco-naranja-icono-8036-32.png")); // NOI18N
+        jMenuItem73.setText("Esperanza M.");
+        jMenuItem73.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem56ActionPerformed(evt);
+                jMenuItem73ActionPerformed(evt);
             }
         });
-        jMenu3.add(jMenuItem56);
+        jMenu3.add(jMenuItem73);
 
-        jMenuItem57.setText("Prof. Maria V.");
-        jMenuItem57.addActionListener(new java.awt.event.ActionListener() {
+        jMenuItem53.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\asterisco-naranja-icono-8036-32.png")); // NOI18N
+        jMenuItem53.setText(" Esau P.");
+        jMenuItem53.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem57ActionPerformed(evt);
+                jMenuItem53ActionPerformed(evt);
             }
         });
-        jMenu3.add(jMenuItem57);
+        jMenu3.add(jMenuItem53);
 
-        jMenuItem58.setText("Prof Hector R.");
-        jMenuItem58.addActionListener(new java.awt.event.ActionListener() {
+        jMenuItem4.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\asterisco-naranja-icono-8036-32.png")); // NOI18N
+        jMenuItem4.setText(" Eva V.");
+        jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem58ActionPerformed(evt);
+                jMenuItem4ActionPerformed(evt);
             }
         });
-        jMenu3.add(jMenuItem58);
+        jMenu3.add(jMenuItem4);
+
+        jMenuItem36.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\asterisco-naranja-icono-8036-32.png")); // NOI18N
+        jMenuItem36.setText("Fernando Sotelo. ");
+        jMenuItem36.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem36ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem36);
+
+        jMenuItem34.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\asterisco-naranja-icono-8036-32.png")); // NOI18N
+        jMenuItem34.setText("Joaquin A.");
+        jMenuItem34.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem34ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem34);
+
+        jMenuItem19.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\asterisco-naranja-icono-8036-32.png")); // NOI18N
+        jMenuItem19.setText("Jorge R.");
+        jMenuItem19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem19ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem19);
+
+        jMenuItem20.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\asterisco-naranja-icono-8036-32.png")); // NOI18N
+        jMenuItem20.setText(" Jose O.");
+        jMenuItem20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem20ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem20);
+
+        jMenuItem84.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\asterisco-naranja-icono-8036-32.png")); // NOI18N
+        jMenuItem84.setText("Oscar B.");
+        jMenuItem84.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem84ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem84);
+
+        jMenuItem9.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\asterisco-naranja-icono-8036-32.png")); // NOI18N
+        jMenuItem9.setText("Pedro M.");
+        jMenuItem9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem9ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem9);
+
+        jMenuItem33.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\asterisco-naranja-icono-8036-32.png")); // NOI18N
+        jMenuItem33.setText("Wilson G.");
+        jMenuItem33.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem33ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem33);
 
         jMenu1.add(jMenu3);
 
+        jMenu4.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\IconoLibro.png")); // NOI18N
         jMenu4.setText("MATERIA");
 
-        jMenuItem10.setText("F. de Ingenieria");
-        jMenuItem10.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem10ActionPerformed(evt);
-            }
-        });
-        jMenu4.add(jMenuItem10);
-
+        jMenuItem68.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
         jMenuItem68.setText("Bases de Datos 1");
         jMenuItem68.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -929,46 +799,7 @@ public class ventana extends javax.swing.JFrame {
         });
         jMenu4.add(jMenuItem68);
 
-        jMenuItem80.setText("Ingenieria de Sofware ll");
-        jMenuItem80.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem80ActionPerformed(evt);
-            }
-        });
-        jMenu4.add(jMenuItem80);
-
-        jMenuItem82.setText("Electiva Basica de Ingenieria l");
-        jMenuItem82.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem82ActionPerformed(evt);
-            }
-        });
-        jMenu4.add(jMenuItem82);
-
-        jMenuItem81.setText("Comunicacion de Datos ll");
-        jMenuItem81.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem81ActionPerformed(evt);
-            }
-        });
-        jMenu4.add(jMenuItem81);
-
-        jMenuItem79.setText("Optimizacion l");
-        jMenuItem79.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem79ActionPerformed(evt);
-            }
-        });
-        jMenu4.add(jMenuItem79);
-
-        jMenuItem78.setText("Investigacion l");
-        jMenuItem78.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem78ActionPerformed(evt);
-            }
-        });
-        jMenu4.add(jMenuItem78);
-
+        jMenuItem76.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
         jMenuItem76.setText("Bases de Datos ll");
         jMenuItem76.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -977,55 +808,8 @@ public class ventana extends javax.swing.JFrame {
         });
         jMenu4.add(jMenuItem76);
 
-        jMenuItem86.setText("Inteligencia Artificial");
-        jMenuItem86.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem86ActionPerformed(evt);
-            }
-        });
-        jMenu4.add(jMenuItem86);
-
-        jMenuItem77.setText("Administracion y Gestion");
-        jMenuItem77.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem77ActionPerformed(evt);
-            }
-        });
-        jMenu4.add(jMenuItem77);
-
-        jMenuItem69.setText("Ingenieria de Sofware");
-        jMenuItem69.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem69ActionPerformed(evt);
-            }
-        });
-        jMenu4.add(jMenuItem69);
-
-        jMenuItem62.setText("Sistemas Operativos");
-        jMenuItem62.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem62ActionPerformed(evt);
-            }
-        });
-        jMenu4.add(jMenuItem62);
-
-        jMenuItem67.setText("Comunicacion de Datos l");
-        jMenuItem67.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem67ActionPerformed(evt);
-            }
-        });
-        jMenu4.add(jMenuItem67);
-
-        jMenuItem64.setText("Sistemas de Informacion");
-        jMenuItem64.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem64ActionPerformed(evt);
-            }
-        });
-        jMenu4.add(jMenuItem64);
-
-        jMenuItem60.setText("Computacion Grafica");
+        jMenuItem60.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
+        jMenuItem60.setText("Computación Grafica");
         jMenuItem60.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem60ActionPerformed(evt);
@@ -1033,117 +817,202 @@ public class ventana extends javax.swing.JFrame {
         });
         jMenu4.add(jMenuItem60);
 
-        jMenuItem66.setText("Teoria De Control");
-        jMenuItem66.addActionListener(new java.awt.event.ActionListener() {
+        jMenuItem67.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
+        jMenuItem67.setText("Comunicación de Datos l");
+        jMenuItem67.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem66ActionPerformed(evt);
+                jMenuItem67ActionPerformed(evt);
             }
         });
-        jMenu4.add(jMenuItem66);
+        jMenu4.add(jMenuItem67);
 
-        jMenuItem11.setText("Logica y Algoritmia");
-        jMenuItem11.addActionListener(new java.awt.event.ActionListener() {
+        jMenuItem81.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
+        jMenuItem81.setText("Comunicación de Datos ll");
+        jMenuItem81.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem11ActionPerformed(evt);
+                jMenuItem81ActionPerformed(evt);
             }
         });
-        jMenu4.add(jMenuItem11);
+        jMenu4.add(jMenuItem81);
 
-        jMenuItem13.setText("Catedra Udecina");
-        jMenuItem13.addActionListener(new java.awt.event.ActionListener() {
+        jMenu5.setText("Mas materias:");
+
+        jMenu12.setText("Mas materias");
+
+        jMenuItem86.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
+        jMenuItem86.setText("Inteligencia Artificial");
+        jMenuItem86.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem13ActionPerformed(evt);
+                jMenuItem86ActionPerformed(evt);
             }
         });
-        jMenu4.add(jMenuItem13);
+        jMenu12.add(jMenuItem86);
 
-        jMenuItem50.setText("Teoria General de Sistemas");
-        jMenuItem50.addActionListener(new java.awt.event.ActionListener() {
+        jMenuItem78.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
+        jMenuItem78.setText("Investigación l");
+        jMenuItem78.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem50ActionPerformed(evt);
+                jMenuItem78ActionPerformed(evt);
             }
         });
-        jMenu4.add(jMenuItem50);
+        jMenu12.add(jMenuItem78);
 
-        jMenuItem15.setText("Matematicas Discretas");
-        jMenuItem15.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem15ActionPerformed(evt);
-            }
-        });
-        jMenu4.add(jMenuItem15);
-
-        jMenuItem16.setText("Fundamentos de Logica");
-        jMenuItem16.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem16ActionPerformed(evt);
-            }
-        });
-        jMenu4.add(jMenuItem16);
-
-        jMenuItem26.setText("Seminario de Ingenieria");
-        jMenuItem26.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem26ActionPerformed(evt);
-            }
-        });
-        jMenu4.add(jMenuItem26);
-
-        jMenuItem27.setText("Fundamentos de Programacion");
-        jMenuItem27.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem27ActionPerformed(evt);
-            }
-        });
-        jMenu4.add(jMenuItem27);
-
-        jMenuItem30.setText("Constitucion y Democracia");
-        jMenuItem30.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem30ActionPerformed(evt);
-            }
-        });
-        jMenu4.add(jMenuItem30);
-
-        jMenuItem39.setText("Programacion l");
-        jMenuItem39.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem39ActionPerformed(evt);
-            }
-        });
-        jMenu4.add(jMenuItem39);
-
-        jMenuItem40.setText("Elementos de Computador");
-        jMenuItem40.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem40ActionPerformed(evt);
-            }
-        });
-        jMenu4.add(jMenuItem40);
-
-        jMenuItem42.setText("Estructura de Informacion");
-        jMenuItem42.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem42ActionPerformed(evt);
-            }
-        });
-        jMenu4.add(jMenuItem42);
-
-        jMenuItem48.setText("Programacion ll");
-        jMenuItem48.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem48ActionPerformed(evt);
-            }
-        });
-        jMenu4.add(jMenuItem48);
-
+        jMenuItem49.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
         jMenuItem49.setText("Microprocesadores");
         jMenuItem49.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem49ActionPerformed(evt);
             }
         });
-        jMenu4.add(jMenuItem49);
+        jMenu12.add(jMenuItem49);
+
+        jMenuItem79.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
+        jMenuItem79.setText("Optimización l");
+        jMenuItem79.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem79ActionPerformed(evt);
+            }
+        });
+        jMenu12.add(jMenuItem79);
+
+        jMenuItem39.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
+        jMenuItem39.setText("Programación l");
+        jMenuItem39.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem39ActionPerformed(evt);
+            }
+        });
+        jMenu12.add(jMenuItem39);
+
+        jMenuItem48.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
+        jMenuItem48.setText("Programación ll");
+        jMenuItem48.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem48ActionPerformed(evt);
+            }
+        });
+        jMenu12.add(jMenuItem48);
+
+        jMenuItem26.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
+        jMenuItem26.setText("Seminario de Ingenieria");
+        jMenuItem26.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem26ActionPerformed(evt);
+            }
+        });
+        jMenu12.add(jMenuItem26);
+
+        jMenuItem64.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
+        jMenuItem64.setText("Sistemas de Informacion");
+        jMenuItem64.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem64ActionPerformed(evt);
+            }
+        });
+        jMenu12.add(jMenuItem64);
+
+        jMenuItem62.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
+        jMenuItem62.setText("Sistemas Operativos");
+        jMenuItem62.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem62ActionPerformed(evt);
+            }
+        });
+        jMenu12.add(jMenuItem62);
+
+        jMenuItem50.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
+        jMenuItem50.setText("Teoria General de Sistemas");
+        jMenuItem50.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem50ActionPerformed(evt);
+            }
+        });
+        jMenu12.add(jMenuItem50);
+
+        jMenuItem66.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
+        jMenuItem66.setText("Teoria De Control");
+        jMenuItem66.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem66ActionPerformed(evt);
+            }
+        });
+        jMenu12.add(jMenuItem66);
+
+        jMenu5.add(jMenu12);
+
+        jMenuItem82.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
+        jMenuItem82.setText("Electiva Basica de Ingenieria l");
+        jMenuItem82.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem82ActionPerformed(evt);
+            }
+        });
+        jMenu5.add(jMenuItem82);
+
+        jMenuItem40.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
+        jMenuItem40.setText("Elementos de Computador");
+        jMenuItem40.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem40ActionPerformed(evt);
+            }
+        });
+        jMenu5.add(jMenuItem40);
+
+        jMenuItem42.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
+        jMenuItem42.setText("Estructura de Informacion");
+        jMenuItem42.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem42ActionPerformed(evt);
+            }
+        });
+        jMenu5.add(jMenuItem42);
+
+        jMenuItem27.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
+        jMenuItem27.setText("Fundamentos de Programacion");
+        jMenuItem27.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem27ActionPerformed(evt);
+            }
+        });
+        jMenu5.add(jMenuItem27);
+
+        jMenuItem16.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
+        jMenuItem16.setText("Fundamentos de Logica");
+        jMenuItem16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem16ActionPerformed(evt);
+            }
+        });
+        jMenu5.add(jMenuItem16);
+
+        jMenuItem10.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
+        jMenuItem10.setText("Fundamentos de Ingenieria");
+        jMenuItem10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem10ActionPerformed(evt);
+            }
+        });
+        jMenu5.add(jMenuItem10);
+
+        jMenuItem69.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
+        jMenuItem69.setText("Ingenieria de Sofware");
+        jMenuItem69.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem69ActionPerformed(evt);
+            }
+        });
+        jMenu5.add(jMenuItem69);
+
+        jMenuItem80.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\icon_reading.gif")); // NOI18N
+        jMenuItem80.setText("Ingenieria de Sofware ll");
+        jMenuItem80.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem80ActionPerformed(evt);
+            }
+        });
+        jMenu5.add(jMenuItem80);
+
+        jMenu4.add(jMenu5);
 
         jMenu1.add(jMenu4);
 
@@ -1239,45 +1108,6 @@ public class ventana extends javax.swing.JFrame {
         
     }//GEN-LAST:event_jMenuItem4ActionPerformed
 
-    private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed
-            tex.setText("");
-        tex.append("NOMBRE: "+palgebra.nombre);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("MATERIA: "+palgebra.materia.nombrem);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("HORARIO: "+palgebra.materia.horario);
-    }//GEN-LAST:event_jMenuItem5ActionPerformed
-
-    private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem6ActionPerformed
-              tex.setText("");
-        tex.append("NOMBRE: "+pcatedra.nombre);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("MATERIA: "+pcatedra.materia.nombrem);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("HORARIO: "+pcatedra.materia.horario);
-    }//GEN-LAST:event_jMenuItem6ActionPerformed
-
-    private void jMenuItem8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem8ActionPerformed
-               tex.setText("");
-        tex.append("NOMBRE: "+joel.nombre);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("MATERIA: "+joel.materia.nombrem);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("HORARIO: "+joel.materia.horario);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("MATERIA: "+joel1.materia.nombrem);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("HORARIO: "+joel1.materia.horario);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("MATERIA: "+joel2.materia.nombrem);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("HORARIO: "+joel2.materia.horario);
-          tex.append(System.getProperty("line.separator"));
-        tex.append("MATERIA: "+joel3.materia.nombrem);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("HORARIO: "+joel3.materia.horario);   
-    }//GEN-LAST:event_jMenuItem8ActionPerformed
-
     private void jMenuItem9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem9ActionPerformed
                tex.setText("");
         tex.append("NOMBRE: "+pedro.nombre);
@@ -1299,37 +1129,6 @@ public class ventana extends javax.swing.JFrame {
    tex.append(System.getProperty("line.separator"));
    tex.append("PROFESOR :"+fingeniera.profe.nombre);
     }//GEN-LAST:event_jMenuItem10ActionPerformed
-
-    private void jMenuItem11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem11ActionPerformed
-     tex.setText("");  
-   tex.append("MATERIA: "+logica.nombrem);
-   tex.append(System.getProperty("line.separator"));
-   tex.append("HORARIO: "+logica.horario);
-   tex.append(System.getProperty("line.separator"));
-   tex.append("PROFESOR :"+logica.profe.nombre);
-    }//GEN-LAST:event_jMenuItem11ActionPerformed
-
-    private void jMenuItem13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem13ActionPerformed
-       tex.setText("");  
-   tex.append("MATERIA: "+catedra.nombrem);
-   tex.append(System.getProperty("line.separator"));
-   tex.append("HORARIO: "+catedra.horario);
-   tex.append(System.getProperty("line.separator"));
-   tex.append("PROFESOR :"+catedra.profe.nombre);
-    }//GEN-LAST:event_jMenuItem13ActionPerformed
-
-    private void jMenuItem15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem15ActionPerformed
- tex.setText("");  
-   tex.append("MATERIA: "+discretas.nombrem);
-   tex.append(System.getProperty("line.separator"));
-   tex.append("HORARIO: "+discretas.horario);
-   tex.append(System.getProperty("line.separator"));
-   tex.append("PROFESOR :"+discretas.profe.nombre);
-   tex.append(System.getProperty("line.separator"));
-   tex.append("HORARIO: "+discretas1.horario);
-   tex.append(System.getProperty("line.separator"));
-   tex.append("PROFESOR :"+discretas1.profe.nombre);
-    }//GEN-LAST:event_jMenuItem15ActionPerformed
 
     private void jMenuItem16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem16ActionPerformed
  tex.setText("");  
@@ -1376,32 +1175,6 @@ public class ventana extends javax.swing.JFrame {
         tex.append("HORARIO: "+jose4.materia.horario);
     }//GEN-LAST:event_jMenuItem20ActionPerformed
 
-    private void jMenuItem21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem21ActionPerformed
-      tex.setText("");
-        tex.append("NOMBRE: "+juaquin.nombre);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("MATERIA: "+juaquin.materia.nombrem);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("HORARIO: "+juaquin.materia.horario);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("MATERIA: "+juaquin1.materia.nombrem);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("HORARIO: "+juaquin1.materia.horario);
-    }//GEN-LAST:event_jMenuItem21ActionPerformed
-
-    private void jMenuItem24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem24ActionPerformed
-   tex.setText("");
-        tex.append("NOMBRE: "+jorgeq.nombre);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("MATERIA: "+jorgeq.materia.nombrem);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("HORARIO: "+jorgeq.materia.horario);
-          tex.append(System.getProperty("line.separator"));
-        tex.append("MATERIA: "+jorgeq1.materia.nombrem);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("HORARIO: "+jorgeq1.materia.horario);   
-    }//GEN-LAST:event_jMenuItem24ActionPerformed
-
     private void jMenuItem26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem26ActionPerformed
    tex.setText("");  
    tex.append("MATERIA: "+singenieria.nombrem);
@@ -1419,16 +1192,6 @@ public class ventana extends javax.swing.JFrame {
    tex.append(System.getProperty("line.separator"));
    tex.append("PROFESOR :"+fprogramacion.profe.nombre);
     }//GEN-LAST:event_jMenuItem27ActionPerformed
-
-    private void jMenuItem30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem30ActionPerformed
-  tex.setText("");  
-   tex.append("MATERIA: "+constitucion.nombrem);
-   tex.append(System.getProperty("line.separator"));
-   tex.append("HORARIO: "+constitucion.horario);
-   tex.append(System.getProperty("line.separator"));
-   tex.append("PROFESOR :"+constitucion.profe.nombre);
-
-    }//GEN-LAST:event_jMenuItem30ActionPerformed
 
     private void jMenuItem33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem33ActionPerformed
        tex.setText("");
@@ -1467,20 +1230,6 @@ public class ventana extends javax.swing.JFrame {
         tex.append(System.getProperty("line.separator"));
         tex.append("HORARIO: "+joaquin2.materia.horario);
     }//GEN-LAST:event_jMenuItem34ActionPerformed
-
-    private void jMenuItem35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem35ActionPerformed
-  tex.setText("");
-        tex.append("NOMBRE: "+bernabe.nombre);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("MATERIA: "+bernabe.materia.nombrem);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("HORARIO: "+bernabe.materia.horario);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("MATERIA: "+bernabe1.materia.nombrem);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("HORARIO: "+bernabe1.materia.horario);
-        
-    }//GEN-LAST:event_jMenuItem35ActionPerformed
 
     private void jMenuItem36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem36ActionPerformed
        tex.setText("");
@@ -1620,33 +1369,6 @@ tex.setText("");
         tex.append("HORARIO: "+duvan4.materia.horario);
     }//GEN-LAST:event_jMenuItem54ActionPerformed
 
-    private void jMenuItem56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem56ActionPerformed
-     tex.setText("");
-        tex.append("NOMBRE: "+nelly.nombre);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("MATERIA: "+nelly.materia.nombrem);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("HORARIO: "+nelly.materia.horario);
-    }//GEN-LAST:event_jMenuItem56ActionPerformed
-
-    private void jMenuItem57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem57ActionPerformed
-      tex.setText("");
-        tex.append("NOMBRE: "+maria.nombre);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("MATERIA: "+maria.materia.nombrem);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("HORARIO: "+maria.materia.horario);
-    }//GEN-LAST:event_jMenuItem57ActionPerformed
-
-    private void jMenuItem58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem58ActionPerformed
-      tex.setText("");
-        tex.append("NOMBRE: "+hector.nombre);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("MATERIA: "+hector.materia.nombrem);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("HORARIO: "+hector.materia.horario);
-    }//GEN-LAST:event_jMenuItem58ActionPerformed
-
     private void jMenuItem60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem60ActionPerformed
          tex.setText("");  
    tex.append("MATERIA: "+grafica.nombrem);
@@ -1700,15 +1422,6 @@ tex.setText("");
    tex.append("PROFESOR :"+datos1.profe.nombre);
     }//GEN-LAST:event_jMenuItem67ActionPerformed
 
-    private void jMenuItem68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem68ActionPerformed
-         tex.setText("");  
-   tex.append("MATERIA: "+bases1.nombrem);
-   tex.append(System.getProperty("line.separator"));
-   tex.append("HORARIO: "+bases1.horario);
-   tex.append(System.getProperty("line.separator"));
-   tex.append("PROFESOR :"+bases1.profe.nombre);
-    }//GEN-LAST:event_jMenuItem68ActionPerformed
-
     private void jMenuItem69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem69ActionPerformed
           tex.setText("");  
    tex.append("MATERIA: "+sofware.nombrem);
@@ -1737,27 +1450,6 @@ tex.setText("");
         
     }//GEN-LAST:event_jMenuItem73ActionPerformed
 
-    private void jMenuItem74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem74ActionPerformed
-    tex.setText("");
-        tex.append("NOMBRE: "+ascanio.nombre);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("MATERIA: "+ascanio.materia.nombrem);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("HORARIO: "+ascanio.materia.horario);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("MATERIA: "+ascanio1.materia.nombrem);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("HORARIO: "+ascanio1.materia.horario); 
-    }//GEN-LAST:event_jMenuItem74ActionPerformed
-
-    private void jMenuItem75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem75ActionPerformed
-tex.setText("");
-        tex.append("NOMBRE: "+pinvestigacion1.nombre);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("MATERIA: "+pinvestigacion1.materia.nombrem);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("HORARIO: "+pinvestigacion1.materia.horario);    }//GEN-LAST:event_jMenuItem75ActionPerformed
-
     private void jMenuItem76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem76ActionPerformed
    tex.setText("");  
    tex.append("MATERIA: "+basesll.nombrem);
@@ -1770,15 +1462,6 @@ tex.setText("");
    tex.append(System.getProperty("line.separator"));
    tex.append("PROFESOR :"+bases1ll.profe.nombre);
     }//GEN-LAST:event_jMenuItem76ActionPerformed
-
-    private void jMenuItem77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem77ActionPerformed
-   tex.setText("");  
-   tex.append("MATERIA: "+administracion.nombrem);
-   tex.append(System.getProperty("line.separator"));
-   tex.append("HORARIO: "+administracion.horario);
-   tex.append(System.getProperty("line.separator"));
-   tex.append("PROFESOR :"+administracion.profe.nombre);
-    }//GEN-LAST:event_jMenuItem77ActionPerformed
 
     private void jMenuItem78ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem78ActionPerformed
     tex.setText("");  
@@ -1838,15 +1521,6 @@ tex.setText("");
         tex.append("HORARIO: "+oscar1.materia.horario);
     }//GEN-LAST:event_jMenuItem84ActionPerformed
 
-    private void jMenuItem85ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem85ActionPerformed
-     tex.setText("");
-        tex.append("NOMBRE: "+pinvestigacionll.nombre);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("MATERIA: "+pinvestigacionll.materia.nombrem);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("HORARIO: "+pinvestigacionll.materia.horario); 
-    }//GEN-LAST:event_jMenuItem85ActionPerformed
-
     private void jMenuItem86ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem86ActionPerformed
        tex.setText("");  
    tex.append("MATERIA: "+inteligencia.nombrem);
@@ -1856,40 +1530,18 @@ tex.setText("");
    tex.append("PROFESOR :"+inteligencia.profe.nombre);
     }//GEN-LAST:event_jMenuItem86ActionPerformed
 
-    private void jMenuItem93ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem93ActionPerformed
-       tex.setText("");
-        tex.append("NOMBRE: "+castillo.nombre);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("MATERIA: "+castillo.materia.nombrem);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("HORARIO: "+castillo.materia.horario); 
-    }//GEN-LAST:event_jMenuItem93ActionPerformed
-
-    private void jMenuItem94ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem94ActionPerformed
-     tex.setText("");
-        tex.append("NOMBRE: "+marcia.nombre);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("MATERIA: "+marcia.materia.nombrem);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("HORARIO: "+marcia.materia.horario); 
-        tex.append(System.getProperty("line.separator"));
-        tex.append("MATERIA: "+marcia1.materia.nombrem);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("HORARIO: "+marcia1.materia.horario);
-    }//GEN-LAST:event_jMenuItem94ActionPerformed
-
-    private void jMenuItem95ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem95ActionPerformed
-       tex.setText("");
-     tex.append("NOMBRE: "+botero.nombre);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("MATERIA: "+botero.materia.nombrem);
-        tex.append(System.getProperty("line.separator"));
-        tex.append("HORARIO: "+botero.materia.horario);
-    }//GEN-LAST:event_jMenuItem95ActionPerformed
-
     private void jMenuItem110ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem110ActionPerformed
     System.exit(0);
     }//GEN-LAST:event_jMenuItem110ActionPerformed
+
+    private void jMenuItem68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem68ActionPerformed
+        tex.setText("");
+        tex.append("MATERIA: "+bases1.nombrem);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("HORARIO: "+bases1.horario);
+        tex.append(System.getProperty("line.separator"));
+        tex.append("PROFESOR :"+bases1.profe.nombre);
+    }//GEN-LAST:event_jMenuItem68ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1933,9 +1585,11 @@ tex.setText("");
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu10;
     private javax.swing.JMenu jMenu11;
+    private javax.swing.JMenu jMenu12;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenu jMenu4;
+    private javax.swing.JMenu jMenu5;
     private javax.swing.JMenu jMenu6;
     private javax.swing.JMenu jMenu7;
     private javax.swing.JMenu jMenu8;
@@ -1945,21 +1599,14 @@ tex.setText("");
     private javax.swing.JMenuBar jMenuBar3;
     private javax.swing.JMenuBar jMenuBar4;
     private javax.swing.JMenuItem jMenuItem10;
-    private javax.swing.JMenuItem jMenuItem11;
     private javax.swing.JMenuItem jMenuItem110;
-    private javax.swing.JMenuItem jMenuItem13;
-    private javax.swing.JMenuItem jMenuItem15;
     private javax.swing.JMenuItem jMenuItem16;
     private javax.swing.JMenuItem jMenuItem19;
     private javax.swing.JMenuItem jMenuItem20;
-    private javax.swing.JMenuItem jMenuItem21;
-    private javax.swing.JMenuItem jMenuItem24;
     private javax.swing.JMenuItem jMenuItem26;
     private javax.swing.JMenuItem jMenuItem27;
-    private javax.swing.JMenuItem jMenuItem30;
     private javax.swing.JMenuItem jMenuItem33;
     private javax.swing.JMenuItem jMenuItem34;
-    private javax.swing.JMenuItem jMenuItem35;
     private javax.swing.JMenuItem jMenuItem36;
     private javax.swing.JMenuItem jMenuItem39;
     private javax.swing.JMenuItem jMenuItem4;
@@ -1967,14 +1614,9 @@ tex.setText("");
     private javax.swing.JMenuItem jMenuItem42;
     private javax.swing.JMenuItem jMenuItem48;
     private javax.swing.JMenuItem jMenuItem49;
-    private javax.swing.JMenuItem jMenuItem5;
     private javax.swing.JMenuItem jMenuItem50;
     private javax.swing.JMenuItem jMenuItem53;
     private javax.swing.JMenuItem jMenuItem54;
-    private javax.swing.JMenuItem jMenuItem56;
-    private javax.swing.JMenuItem jMenuItem57;
-    private javax.swing.JMenuItem jMenuItem58;
-    private javax.swing.JMenuItem jMenuItem6;
     private javax.swing.JMenuItem jMenuItem60;
     private javax.swing.JMenuItem jMenuItem62;
     private javax.swing.JMenuItem jMenuItem64;
@@ -1983,23 +1625,15 @@ tex.setText("");
     private javax.swing.JMenuItem jMenuItem68;
     private javax.swing.JMenuItem jMenuItem69;
     private javax.swing.JMenuItem jMenuItem73;
-    private javax.swing.JMenuItem jMenuItem74;
-    private javax.swing.JMenuItem jMenuItem75;
     private javax.swing.JMenuItem jMenuItem76;
-    private javax.swing.JMenuItem jMenuItem77;
     private javax.swing.JMenuItem jMenuItem78;
     private javax.swing.JMenuItem jMenuItem79;
-    private javax.swing.JMenuItem jMenuItem8;
     private javax.swing.JMenuItem jMenuItem80;
     private javax.swing.JMenuItem jMenuItem81;
     private javax.swing.JMenuItem jMenuItem82;
     private javax.swing.JMenuItem jMenuItem84;
-    private javax.swing.JMenuItem jMenuItem85;
     private javax.swing.JMenuItem jMenuItem86;
     private javax.swing.JMenuItem jMenuItem9;
-    private javax.swing.JMenuItem jMenuItem93;
-    private javax.swing.JMenuItem jMenuItem94;
-    private javax.swing.JMenuItem jMenuItem95;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextArea tex;
     // End of variables declaration//GEN-END:variables
