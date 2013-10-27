@@ -5,7 +5,7 @@
 
 /**
  *
- * @author Cruz Arevalo
+ * @author Alejandro González & Sergio Diaz
  */
 public class ventana extends javax.swing.JFrame {
 
