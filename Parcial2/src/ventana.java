@@ -684,7 +684,7 @@ public class ventana extends javax.swing.JFrame {
 
         jScrollPane1.setViewportView(tex);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Alejandro\\Downloads\\udec.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\Aplicaci-n-Parcial-2-Programaci-n-1\\udec.jpg")); // NOI18N
 
         jLabel2.setText("Version 1.0");
 
@@ -1183,8 +1183,8 @@ public class ventana extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 250, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel1)
+                .addGap(2, 2, 2)
                 .addComponent(jLabel3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
